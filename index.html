@@ -152,6 +152,69 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-hexo博客配置遇到的问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/08/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">hexo博客配置遇到的问题</a>
+    </h1>
+  
+
+        
+        <a href="/2020/01/08/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="archive-article-date">
+  	<time datetime="2020-01-08T06:17:38.278Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="hexo内本地图片直接引入无法显示问题"><a href="#hexo内本地图片直接引入无法显示问题" class="headerlink" title="hexo内本地图片直接引入无法显示问题"></a>hexo内本地图片直接引入无法显示问题</h2><p>把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true<br>在根目录下输入npm install hexo-asset-image –save，这是下载安装一个可以上传本地图片的插件<br>再运行hexo new “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹<br>最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片即可</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/01/08/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-抓包" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -193,13 +256,13 @@
 <p>请求头：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">POST http:&#x2F;&#x2F;data.bilibili.com&#x2F;log&#x2F;web?.............................413infoc|zh-CN|1-1 HTTP&#x2F;1.1</span><br><span class="line">Host: data.bilibili.com</span><br><span class="line">Connection: keep-alive</span><br><span class="line">Content-Length: 0</span><br><span class="line">Origin: http:&#x2F;&#x2F;account.bilibili.com</span><br><span class="line">User-Agent: Mozilla&#x2F;5.0 (Windows NT 10.0; WOW64) AppleWebKit&#x2F;537.36 (KHTML, like Gecko) Chrome&#x2F;74.0.3729.169 Safari&#x2F;537.36</span><br><span class="line">Content-Type: text&#x2F;plain;charset&#x3D;UTF-8</span><br><span class="line">Accept: *&#x2F;*</span><br><span class="line">Referer: http:&#x2F;&#x2F;account.bilibili.com&#x2F;site&#x2F;face.html</span><br><span class="line">Accept-Encoding: gzip, deflate</span><br><span class="line">Accept-Language: zh-CN,zh;q&#x3D;0.9</span><br><span class="line">Cookie: _uuid&#x3D;DA6AF83C-8A26-6406-A971-BBEC2B61FA5100413infoc; buvid3&#x3D;1E2E99CF-CA1A-4FED-A21E-16E99C4F142B190953infoc; LIVE_BUVID&#x3D;AUTO3715719997274010; sid&#x3D;kctussjq; CURRENT_FNVAL&#x3D;16; stardustvideo&#x3D;1; rpdid&#x3D;|(JJmlY~|J~m0J&#39;ul~ummm~ml; im_notify_type_281157479&#x3D;0; UM_distinctid&#x3D;16e0bae17fd56-0fc0f09005cefe-3b65410e-1fa400-16e0bae17fe40f; laboratory&#x3D;1-1; CURRENT_QUALITY&#x3D;64; DedeUserID&#x3D;281157479; DedeUserID__ckMd5&#x3D;11b3a2ae384c623c; SESSDATA&#x3D;7ea2c8af%2C1580603422%2C2bf6e711; bili_jct&#x3D;5737ef9c57e308034b56f043c6090a52; _ga&#x3D;GA1.2.1102140780.1578030580; bp_t_offset_281157479&#x3D;340844825045287038; INTVER&#x3D;1</span><br></pre></td></tr></table></figure>
 
-<p><img src="D:%5CBlog%5Csource_posts%5C%E6%9C%AA%E5%91%BD%E5%90%8D1578213658.png" alt="未命名1578213658"></p>
+<p><img src="/.com//D:%5CBlog%5Csource_posts%5C%E6%8A%93%E5%8C%85%5C%E6%9C%AA%E5%91%BD%E5%90%8D1578213658.png" alt="未命名1578213658"></p>
 <h2 id="分析响应"><a href="#分析响应" class="headerlink" title="分析响应"></a>分析响应</h2><p>1.响应报文：响应状态行，响应头部，空一行，响应体</p>
 <p>响应状态行</p>
-<p><img src="D:%5CBlog%5Csource_posts%5CTIM%E6%88%AA%E5%9B%BE20200105165121.png" alt="TIM截图20200105165121"></p>
+<p><img src="/.com//D:%5CBlog%5Csource_posts%5C%E6%8A%93%E5%8C%85%5CTIM%E6%88%AA%E5%9B%BE20200105165121.png" alt="TIM截图20200105165121"></p>
 <p>404客户端错误，如阻塞css,js</p>
 <p>响应头部</p>
-<p><img src="D:%5CBlog%5Csource_posts%5CTIM%E6%88%AA%E5%9B%BE20200105165905.png" alt="TIM截图20200105165905"></p>
+<p><img src="/.com//D:%5CBlog%5Csource_posts%5C%E6%8A%93%E5%8C%85%5CTIM%E6%88%AA%E5%9B%BE20200105165905.png" alt="TIM截图20200105165905"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">HTTP&#x2F;1.1 200 OK</span><br><span class="line">Date: Sun, 05 Jan 2020 08:42:26 GMT</span><br><span class="line">Content-Type: application&#x2F;json</span><br><span class="line">Content-Length: 46</span><br><span class="line">Connection: keep-alive</span><br><span class="line">L: v</span><br><span class="line">X-Trace-Id: 3a6f541b93164c06</span><br><span class="line">Http-Status-Code: 200</span><br><span class="line">Server: swoole-http-server</span><br><span class="line">Set-Cookie: l&#x3D;v</span><br><span class="line">Access-Control-Allow-Origin: http:&#x2F;&#x2F;account.bilibili.com</span><br><span class="line">Access-Control-Allow-Credentials: true</span><br><span class="line">Access-Control-Allow-Headers: Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,Access-Control-Allow-Credentials,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Cache-Webcdn,x-bilibili-key-real-ip</span><br><span class="line">X-Cache-Webcdn: BYPASS from u-sh2-webcdn-11</span><br><span class="line"></span><br><span class="line">&#123;&quot;code&quot;:0,&quot;msg&quot;:&quot;ok&quot;,&quot;message&quot;:&quot;ok&quot;,&quot;data&quot;:[]&#125;</span><br></pre></td></tr></table></figure>
 
 <p>响应体可以是任意格式</p>
@@ -209,7 +272,7 @@
 <p>Remove:清除连接请求，图片，非200状态，非浏览器</p>
 <p>清除所有（ctrl+X）</p>
 <p>run:断点</p>
-<p><img src="D:%5CBlog%5Csource_posts%5CTIM%E6%88%AA%E5%9B%BE20200106175243.png" alt="TIM截图20200106175243"></p>
+<p><img src="/.com//D:%5CBlog%5Csource_posts%5C%E6%8A%93%E5%8C%85%5CTIM%E6%88%AA%E5%9B%BE20200106175243.png" alt="TIM截图20200106175243"></p>
 <p>点一次请求前断点，点两次响应前断点</p>
 <p>Stream:这是流模式，一般不需要用到，点击切换缓冲模式</p>
 <p>Decode:解码</p>
